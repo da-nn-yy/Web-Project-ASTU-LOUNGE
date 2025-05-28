@@ -98,6 +98,7 @@ nav div{
   align-items: center;
   justify-content: space-between;
   padding: 0.7rem 12rem;
+  z-index: 1000;
 }
 
 .nav__bar {
@@ -142,7 +143,7 @@ nav.scrolled {
   background-image: var(--gradient-2);
   transform: translateY(-100%);
   transition: 0.5s;
-  z-index: -1;
+  z-index: 1000;
 }
 
 .nav__links.open {
